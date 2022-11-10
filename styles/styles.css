@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.alert {
+  padding: 25px;
+  color: #fae1e1;
+  font-weight: normal;
+}
+
+.weather {
+  font-size: 14px !important;
+  color: #767676 !important;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1, p, input, select {
+  color: #eeeeee;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.8;
+  border-bottom: 1px solid #767676;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-image: url("../img/weather-bg.jpg");
+  background-size: cover;
+}
+.content .weather-info {
+  font-size: 45px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 2%;
+  bottom: -10%;
+  border-style: none;
+}
+.content .content-blocks {
+  height: 100vh;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.77);
+  width: 400px;
+  text-align: center;
+}
+.content .content-blocks form {
+  border-radius: 8px;
+}
+.content .content-blocks form input, .content .content-blocks form select {
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border-radius: 0;
+  border-style: none;
+  border: 1px solid #767676;
+  outline: none;
+}
+.content .content-blocks form select option {
+  color: #000000;
+}
+.content .content-blocks form input[type=text] {
+  cursor: text;
+}
+.content .content-blocks form input[type=submit] {
+  cursor: pointer;
+  background-color: #181818;
+  padding: 14px;
+  border-radius: 4px;
+  width: 200px;
+  margin: auto;
+  margin-top: 25px;
+}
+.content .content-blocks form input[type=submit]:hover {
+  background-color: rgba(28, 28, 28, 0.7529411765);
+}/*# sourceMappingURL=styles.css.map */
