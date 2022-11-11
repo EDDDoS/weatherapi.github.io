@@ -102,6 +102,8 @@ function mostrarClima(datos){
         content.style.backgroundImage = 'url("../img/cold.jpg")';
     } else if(desc == 'Storm' || desc == 'Stormy'){
         content.style.backgroundImage = 'url("../img/storm.jpg")';
+    } else {
+        content.style.backgroundImage = 'url("../img/few-clouds.jpg")';
     }
 
     const actual = document.createElement('p');
